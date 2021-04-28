@@ -44,3 +44,17 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Bibliography
+
+https://dev.to/mandiwise/electron-apps-made-easy-with-create-react-app-and-electron-forge-560e
+https://www.section.io/engineering-education/desktop-application-with-react/
+
+https://www.reddit.com/r/electronjs/comments/70liqn/porting_my_createreactapp_based_app_to_electron/
+https://www.freecodecamp.org/news/building-an-electron-application-with-create-react-app-97945861647c/?gif=true
+https://medium.com/@kitze/%EF%B8%8F-from-react-to-an-electron-app-ready-for-production-a0468ecb1da3
+http://people.loyno.edu/~rharvey/teaching/cosc-a319/2019f/converting-cra-to-electron/
+
+https://www.youtube.com/watch?v=2_fROfS8FPE
+https://www.youtube.com/watch?v=TnXz_nnQZrw
+https://www.youtube.com/watch?v=VCl8li22mrA
