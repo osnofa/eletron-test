@@ -1,9 +1,10 @@
-import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { rootPath, routes } from '../routing';
 
-const Header = () => {
+interface HeaderProps {}
+
+const Header: React.FC<HeaderProps> = () => {
   return (
     <Navbar bg="light" variant="light" expand="lg">
       <Navbar.Brand as={Link} to="/filmes">

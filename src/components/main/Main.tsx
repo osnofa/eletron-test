@@ -1,11 +1,6 @@
 /* #region  imports */
-import React, { useEffect, useState } from 'react';
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  useLocation,
-} from 'react-router-dom';
+import { useEffect } from 'react';
+import { Route, Switch, useLocation } from 'react-router-dom';
 
 import Header from '../header/Header';
 import { Container } from 'react-bootstrap';
@@ -13,7 +8,9 @@ import { Container } from 'react-bootstrap';
 import { rootPath, routes } from '../routing';
 /* #endregion */
 
-const Main = () => {
+interface MainProps {}
+
+const Main: React.FC<MainProps> = () => {
   const location = useLocation();
 
   useEffect(() => {

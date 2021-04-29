@@ -1,8 +1,6 @@
-import React from 'react';
+interface XyzProps {}
 
-interface Props {}
-
-const Xyz: React.FC<Props> = () => {
+const Xyz: React.FC<XyzProps> = () => {
   return <h1>Xyz</h1>;
 };
 
