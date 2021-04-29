@@ -1,11 +1,11 @@
 import Home from './home/Home';
 import Abc from './abc/Abc';
 import Xyz from './xyz/Xyz';
+import Movies from './movies/Movies';
 
 export const routes = [
   {
     path: '/home',
-    exact: true,
     page: Home,
     name: 'Home',
   },
@@ -18,6 +18,11 @@ export const routes = [
     path: '/xyz',
     page: Xyz,
     name: 'Xyz',
+  },
+  {
+    path: '/movies',
+    page: Movies,
+    name: 'Movies',
   },
 ];
 

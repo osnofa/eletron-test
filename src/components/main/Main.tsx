@@ -24,8 +24,8 @@ const Main: React.FC<MainProps> = () => {
         {routes.map((route, index) => (
           <Route
             key={index}
-            path={`${rootPath}${route.path}`}
-            exact={route.exact}
+            path={route.path}
+            // exact={route.exact}
             children={<route.page />}
           />
         ))}
